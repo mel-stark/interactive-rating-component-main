@@ -7,7 +7,6 @@ body {
 /* classes */
 .btn {
     background-color: hsl(25, 97%, 53%) !important;
-    margin-top: 1rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -20,13 +19,23 @@ body {
 }
 
 .card-body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
+.card-body p {
+    color: hsl(216, 12%, 54%);
+}
+
 .card-title {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 .container-fluid {
@@ -36,6 +45,10 @@ body {
 .numbers-for-rating {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.span {
+    color: hsl(216, 12%, 54%);
 }
 
 .star-icon {
