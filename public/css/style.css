@@ -1,11 +1,46 @@
 /* elements */
 
 body {
-    background-color: hsl(216, 12%, 8%);
+    background-color: rgb(20, 21, 25);
 }
 
 /* classes */
+.btn {
+    background-color: hsl(25, 97%, 53%) !important;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .card {
-    max-width: 400px;
+    background-image: radial-gradient(closest-side at 50% 25%, rgb(33, 40, 50), rgb(23, 30, 40));
+    color: white;
+    max-width: 25rem;
+    height: 25rem;
+}
+
+.card-body {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-title {
+    margin-top: 1rem;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.numbers-for-rating {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.star-icon {
+    background-color: rgb(33, 40, 50) !important;
+    height: 50px;
+    width: 50px;
+    padding-top: 1rem;
 }
