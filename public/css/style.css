@@ -1,0 +1,11 @@
+/* elements */
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+/* classes */
+
+.card {
+    max-width: 400px;
+}
