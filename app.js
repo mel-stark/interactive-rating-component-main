@@ -15,3 +15,8 @@ app.get("/", function(req, res){
 app.listen(process.env.PORT || 3000, function(){
   console.log("Server started on port 3000.");
 });
+
+function myFunction() {
+  var element = document.getElementById("circle01");
+  element.classList.add("n-active")
+}

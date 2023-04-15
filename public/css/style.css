@@ -21,6 +21,11 @@ body {
     padding-bottom: 10px;
 }
 
+.btn:hover {
+    background-color: whitesmoke !important;
+    color: hsl(25, 97%, 53%);
+}
+
 .card {
     background-image: radial-gradient(closest-side at 50% 35%, rgb(33, 40, 50), rgb(23, 30, 40));
     color: white;
@@ -61,6 +66,15 @@ body {
 
 .n {
     margin-right: 1.3rem;
+}
+
+.n-active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.n:hover {
+    background-color: hsl(218, 12%, 54%) !important;
+    color: white;
 }
 
 .numbers-for-rating {
