@@ -5,17 +5,27 @@ body {
 }
 
 /* classes */
+.badge {
+    font-size: 20px !important;
+    font-family: 'Overpass', sans-serif !important;
+    font-weight: lighter !important;
+    color: hsl(217, 12%, 63%);
+}
+
 .btn {
     background-color: hsl(25, 97%, 53%) !important;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .card {
-    background-image: radial-gradient(closest-side at 50% 25%, rgb(33, 40, 50), rgb(23, 30, 40));
+    background-image: radial-gradient(closest-side at 50% 35%, rgb(33, 40, 50), rgb(23, 30, 40));
     color: white;
-    max-width: 25rem;
-    height: 25rem;
+    max-width: 27.5rem;
+    height: 27.5rem;
 }
 
 .card-body {
@@ -34,26 +44,29 @@ body {
 .card-title {
     margin-top: 2rem;
     font-family: 'Overpass', sans-serif;
-    font-size: 23px;
+    font-size: 28px;
     font-weight: 700;
+}
+
+.circle-icon {
+    background-color: rgb(33, 40, 50) !important;
+    height: 50px;
+    width: 50px;
+    padding-top: 1rem;
 }
 
 .container-fluid {
     height: 100vh;
 }
 
+.n {
+    margin-right: 1.3rem;
+}
+
 .numbers-for-rating {
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .span {
     color: hsl(216, 12%, 54%);
-}
-
-.star-icon {
-    background-color: rgb(33, 40, 50) !important;
-    height: 50px;
-    width: 50px;
-    padding-top: 1rem;
 }
