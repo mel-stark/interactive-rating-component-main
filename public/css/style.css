@@ -54,7 +54,6 @@ body {
 }
 
 .circle-icon {
-    background-color: rgb(33, 40, 50) !important;
     height: 50px;
     width: 50px;
     padding-top: 1rem;
@@ -64,12 +63,17 @@ body {
     height: 100vh;
 }
 
-.n {
-    margin-right: 1.3rem;
+.inactive {
+    background-color: rgb(33, 40, 50) !important;
 }
 
-.n-active {
-    background-color: hsl(25, 97%, 53%);
+.active {
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
+}
+
+.n {
+    margin-right: 1.3rem;
 }
 
 .n:hover {
@@ -79,8 +83,4 @@ body {
 
 .numbers-for-rating {
     margin-top: 2rem;
-}
-
-.span {
-    color: hsl(216, 12%, 54%);
 }
