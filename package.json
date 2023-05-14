@@ -4,7 +4,7 @@
   "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
   "main": "app.js",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node app.js",
