@@ -19,7 +19,7 @@ app.get("/", function(req, res){
 
 app.post('/thank-you', function(req, res) {
   var chosenRating = req.body.rating;
-  res.render('thank-you.ejs', { chosenRating: chosenRating });
+  res.render('views/thank-you.ejs', { chosenRating: chosenRating });
 })
 
 app.listen(process.env.PORT || 5415, function () {
