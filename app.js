@@ -22,6 +22,6 @@ app.post('/thank-you', function(req, res) {
   res.render('thank-you.ejs', { chosenRating: chosenRating });
 })
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 5415, function () {
   console.log("Server is running")
 })
