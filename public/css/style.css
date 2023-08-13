@@ -4,6 +4,14 @@ body {
     background-color: rgb(20, 21, 25);
 }
 
+/* for mobile */
+
+@media only screen and (min-width: 600px) {
+    .n {
+        margin-right: 1.3rem;
+    }
+}
+
 /* classes */
 .badge {
     font-size: 20px !important;
@@ -78,9 +86,6 @@ body {
     color: white !important;
 }
 
-.n {
-    margin-right: 1.3rem;
-}
 
 .n:hover {
     background-color: hsl(218, 12%, 54%) !important;
