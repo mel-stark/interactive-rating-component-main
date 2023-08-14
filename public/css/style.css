@@ -6,9 +6,15 @@ body {
 
 /* for mobile */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     .n {
         margin-right: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    td {
+        padding-right: 0.5rem;
     }
 }
 
@@ -86,7 +92,6 @@ body {
     color: white !important;
 }
 
-
 .n:hover {
     background-color: hsl(218, 12%, 54%) !important;
     color: white;
@@ -94,6 +99,10 @@ body {
 
 .numbers-for-rating {
     margin-top: 2rem;
+}
+
+.numbers-for-rating button {
+    display: inline-block;
 }
 
 .thank-you-illustration {
